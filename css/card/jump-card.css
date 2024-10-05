@@ -1,0 +1,36 @@
+.jumpCard {
+ width: 270px;
+ height: 350px;
+ box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+ background: #fff;
+ display: flex;
+ border-radius: 20px;
+ justify-content: center;
+ position: relative;
+ transition: all .4s;
+}
+
+.jumpCard::before {
+ content: '>> Click card to learn more';
+ position: absolute;
+ bottom: 8px;
+ right: 10%;
+ color: rgb(51, 51, 51);
+ font-size: 0.8em;
+ letter-spacing: 0.02em;
+}
+
+.jumpCard div {
+ width: 100%;
+ height: 100%;
+ border-radius: 20px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+ cursor: pointer;
+ z-index: 10;
+ transition: all .4s;
+ background-color: #fff;
+}
+
+.jumpCard:hover div {
+ transform: translateY(-30px);
+}

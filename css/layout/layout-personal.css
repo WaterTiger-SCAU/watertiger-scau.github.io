@@ -1,0 +1,44 @@
+.personalPhoto {
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.personalPhoto img {
+	height: 100px;
+	width: 100px;
+}
+
+.personalAbout {
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	align-items: center;
+}
+
+.personalAbout .textLine {
+	display: flex;
+	justify-self: center;
+	align-items: center;
+	font-size: 150%;
+	letter-spacing: 0.5px;
+}
+
+.personalTag {
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-self: start;
+	align-items: center;
+}
+
+.personalTag .text {
+	display: flex;
+}
+
+.personalTag .operation {
+	display: flex;
+	padding-top: 20px;
+}

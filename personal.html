@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WaterTiger | About Me</title>
+		<!-- favicon -->
+		<link href="img/favicon.ico" rel="shortcut icon">
+		<!-- css -->
+		<link rel="stylesheet" href="css/layout/layout-common.css"/>
+		<link rel="stylesheet" href="css/layout/layout-personal.css"/>
+		<link rel="stylesheet" href="css/button/common-button.css"/>
+		<link rel="stylesheet" href="css/animate.css"/>
+		<!-- js -->
+		<script src="js/location.js"></script>
+		<script src="js/type.js"></script>
+		<script src="js/roll-tag.js"></script>
+	</head>
+	<body>
+		<div class="nav">
+			<div class="nav-item" onclick="locationIndex()">Index</div>
+			<div class="nav-item" onclick="locationHomePage()">Home</div>
+			<div class="nav-item nav-item-use" onclick="locationPersonal()">About</div>
+		</div>
+		
+		<div class="context">
+			<div class="contextMain">
+				
+				<div class="personalPhoto">
+					<img src="img/github.gif"/>
+				</div>
+				
+				<div class="personalAbout">
+					<div class="textLine">WaterTiger</div>
+					<div class="textLine">
+						<font color="darkgray">Live in </font>
+						&nbsp;GuangZhou
+					</div>
+					<div class="textLine"><font color="darkgray">Programmer</font></div>
+				</div>
+				
+				<div class="personalTag">
+					<div class="text">
+						#&nbsp;
+						<b>
+							<span id="element"></span>
+						</b>
+						&nbsp;#
+					</div>
+					
+					<div class="operation">
+						<button onclick="showTag()">LEARN MORE ABOUT ME</button>
+					</div>
+				</div>
+				
+				<script>
+					var typed = new Typed('#element', {
+							      strings: [''],
+							      typeSpeed: 50,
+							    });
+								
+					function showTag() {
+						typed.destroy();
+						
+						typed = new Typed('#element', {
+								      strings: [rollTag()],
+								      typeSpeed: 50,
+								    });
+					}
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

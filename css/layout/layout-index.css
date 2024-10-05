@@ -1,0 +1,29 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.top {
+	height: 66.67%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.top div {
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.bottom {
+	height: 33.33%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}

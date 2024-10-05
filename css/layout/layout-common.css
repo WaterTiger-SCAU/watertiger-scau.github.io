@@ -1,0 +1,62 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	height: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-item {
+	height: 40%;
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+	color: darkgray;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.nav-item-use {
+	color: black;
+}
+
+.nav-item:hover::after {
+	content: "";
+	position: absolute;
+	bottom: -3px;
+	width: 80%;
+	height: 3px;
+	background-color: black;
+}
+
+.context {
+	height: 70%;
+	display: flex;
+	justify-content: baseline;
+	align-items: center;
+}
+
+.contextMain {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottom {
+	height: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}

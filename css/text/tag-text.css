@@ -1,0 +1,50 @@
+.tag-contain {
+	padding-top: 1ch;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.tag-second-contain {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.tag-text-indianred {
+	font-size: 0.7em;
+	color: aliceblue;
+	background-color: indianred;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+}
+
+.tag-text-blue {
+	font-size: 0.7em;
+	color: aliceblue;
+	background-color: deepskyblue;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+}
+
+.tag-text-green {
+	font-size: 0.7em;
+	color: aliceblue;
+	background-color: limegreen;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+}
+
+.tag-text-saddlebrown {
+	font-size: 0.7em;
+	color: aliceblue;
+	background-color: saddlebrown;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+}
