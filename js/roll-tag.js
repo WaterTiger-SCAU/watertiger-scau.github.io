@@ -18,7 +18,7 @@ function rollIndex() {
 }
 
 const textArr = [
-	// code
+	// developer
 	"Java Developer",
 	"Typora User",
 	"Happy Coding",
@@ -26,22 +26,20 @@ const textArr = [
 	"Defensive programming supporter",
 	"CRUD boy",
 	"API boy",
-	"非常好Markdown 爱来自程序员",
+	"I like Markdown",
 	// game
-	"OverWatch Player (<u>@Deprecated</u>)",
+	"OverWatch Player",
 	"Pokémon Trainer",
 	"咸鱼提督 偶尔回港区看看",
-	"Steve -.-",
-	"Faze up",
-	"“极地战神”",
-	"我有魔芋爽",
+	"Minecraft player",
+	"模拟经营爱好者",
 	// consumer electronics
 	"IOS Android 双持用户",
 	"MacOS Windows 双持用户",
+	"Switch Ps5 双持用户",
 	"桌搭进修中",
 	// no idea
 	"胆小好色",
-	"筑基中期",
 	"Keep Studying (ง •̀_•́)ง",
 	"健身计划 启动",
 	"<del>明天一定早睡早起</del>"
